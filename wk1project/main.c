@@ -3,9 +3,12 @@
 int main(){
     float x;
     float y;
+    float z;
     printf("Enter a number: ");
     scanf("%f", &x);
-    y = (x+2)/(x-1);
-    printf("y: %f\n", y);
+    printf("Enter another number: ");
+    scanf("%f", &y);
+    z = (x*x*x)+3+(6*y);
+    printf("z: %f\n", z);
     return 0;
 }
